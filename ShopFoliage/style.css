@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Service Page-------------------------------------- */
+
+.maincontainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+.bodydiv {
+    background-image: url(./Background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.child1 {
+    height: 75%;
+    width: 100%;
+    /* background-color: rgb(99, 62, 62); */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.parent {
+    height: 100px;
+    width: 70%;
+    display: flex;
+    /* border: 3px solid red; */
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navbarImage {
+    height: 80px;
+    width: 20%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.navbarImage img {
+    height: 60px;
+    width: 60px;
+}
+
+
+.navbarList {
+    height: 90px;
+    width: 60%;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    /* border: 3px solid rgb(0, 0, 0); */
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbarList ul {
+    display: flex;
+}
+
+.navbarList ul li {
+    margin: 30px;
+    list-style: none;
+}
+
+.checkout {
+    /* background-color: aliceblue; */
+    height: 100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: 45px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:
+        #B7EAAF;
+    border: 1px solid rgb(146, 176, 146);
+}
+
+
+
+/* Card---------- */
+
+.card {
+    height: 520px;
+    width: 600px;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.cardGradient {
+    height: 520px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.card2 {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    /* background-color: aqua; */
+
+}
+
+.headingPArt {
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 60%;
+
+
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+
+.headingPArt span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(186, 240, 203);
+}
+
+.paraPArt {
+    /* border: 2px solid red; */
+    height: auto;
+    width: 60%;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+}
+
+
+
+/* Bottom part-------------- */
+
+.child2 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+
+.child2 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* plants list part--------- */
+.plantsList{
+    position: absolute;
+    height: 400px ;
+    width: 400px;
+    /* border: 2px solid red; */
+    bottom: 100px;
+    left: 50px;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(33, 63, 54, .9);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+}
+.plantsList span{
+    font-size: 15px;
+    color: #B7EAAF;
+    margin: 0px 40px;
+}
+li{
+    font-size: 18px;
+    list-style: none;
+    margin: 5px 40px;
+}
+hr{
+    width: 80%;
+    margin: 0px 40px ;
+    background-color: rgb(54, 53, 53);
+}
+.circle{
+    position: absolute;
+    left: 10px;
+    bottom: 18px;
+}.circle1{
+    position: absolute;
+    left: 10px;
+    top: 18%;
+}
+.circle2{
+    position: absolute;
+    left: 10px;
+    bottom: 39%;
+}
+.circle3{
+    position: absolute;
+    left: 10px;
+    bottom: 13%;
+}
+.circle1 img,
+.circle2 img,
+.circle3 img,
+.circle img{
+    height: 90%;
+    width: 90%;
+}
